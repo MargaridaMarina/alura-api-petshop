@@ -30,5 +30,10 @@ $ npm install eslint
 ```
 ### Usando guia de estilos
 ```
-$ ./node_modules/.bin/eslint --init
+$ npm run lint
+$ npm run lint:fix
+```
+### Instalando framework para testes
+```
+$ npm install --save-dev jest
 ```
