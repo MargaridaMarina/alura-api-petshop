@@ -37,3 +37,7 @@ $ npm run lint:fix
 ```
 $ npm install --save-dev jest
 ```
+### Rodar testes
+```
+$ npm t
+```
