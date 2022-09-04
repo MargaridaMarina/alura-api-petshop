@@ -6,8 +6,8 @@ module.exports = {
   inserir (fornecedor) {
     return {
       id: 500,
-      dataCriacao, '10/12/3420',
-      dataAtualizacao, '10/12/3420',
+      dataCriacao: '10/12/3420',
+      dataAtualizacao: '10/12/3420',
       versao: 90
     }
   },
