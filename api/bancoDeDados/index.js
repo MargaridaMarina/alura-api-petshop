@@ -3,7 +3,7 @@
 const Sequelize = require('sequelize') // biblioteca Sequelize para se comunicar com banco de dados
 const config = require('config') // consumir dados do arquivo de config default.json
 const instancia = new Sequelize( // configurar dados de acesso ao banco de dados
-  config.get('mysql.banco-de-dados'),
+  // config.get('mysql.banco-de-dados'),
   config.get('mysql.usuario'),
   config.get('mysql.senha'),
   {
