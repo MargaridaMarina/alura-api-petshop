@@ -2,7 +2,8 @@
   "mysql": {
       "usuario": "PETSHOP_MYSQL_USUARIO",
       "senha": "PETSHOP_MYSQL_SENHA",
-      "host": "PETSHOP_MYSQL_HOST"
+      "host": "PETSHOP_MYSQL_HOST",
+      "dialect":"MYSQL"
   },
   "api": {
       "porta": "PETSHOP_PORTA_API"
