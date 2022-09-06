@@ -9,7 +9,7 @@ const instancia = new Sequelize( // configurar dados de acesso ao banco de dados
   {
     // configuracoes da conexao
     host: config.get('mysql.host'), // ip da maquina que ta rodando o banco mysql
-    dialect: 'mysql', // tipo de banco que estamos trabalhando
+    dialect: 'mysql' // tipo de banco que estamos trabalhando
     // port: config.get('mysql.port')
   }
 )
