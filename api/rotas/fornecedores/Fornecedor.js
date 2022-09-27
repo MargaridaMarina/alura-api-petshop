@@ -1,7 +1,7 @@
 // representar no codigo o Fornecedor
-const TabelaFornecedor = require('./tabelaFornecedor')
-const CampoInvalido = require('../../erros/campoInvalido')
-const DadosNaoFornecidos = require('../../erros/dadosNaoFornecidos')
+const TabelaFornecedor = require('./TabelaFornecedor')
+const CampoInvalido = require('../../erros/CampoInvalido')
+const DadosNaoFornecidos = require('../../erros/DadosNaoFornecidos')
 
 class Fornecedor {
   // pegar dados na hora de instanciar a classe e assimilar a nossa instancia temos que criar o metodo que constroi a classe  

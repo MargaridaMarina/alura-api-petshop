@@ -1,6 +1,6 @@
 // exportar metodos que usamos dentro da nossa aplicacao
-const Modelo = require('./modeloTabelaFornecedor') // retornar dados que estao no banco de dados da nossa api
-const NaoEncontrado = require('../../erros/naoEncontrado')
+const Modelo = require('./ModeloTabelaFornecedor') // retornar dados que estao no banco de dados da nossa api
+const NaoEncontrado = require('../../erros/NaoEncontrado')
 
 module.exports = {
   listar () {
