@@ -1,8 +1,8 @@
 // pegar configuracoes do modelo de tabela e criar no banco de dados
 // lista de modelos de tabelas
 const modelos = [
-  require('../rotas/fornecedores/modeloTabelaFornecedor'),
-  require('../rotas/fornecedores/produtos/modeloTabelaProdutos')
+  require('../rotas/fornecedores/ModeloTabelaFornecedor'),
+  require('../rotas/fornecedores/produtos/ModeloTabelaProdutos')
 ]
 
 async function criarTabelas () {

@@ -1,5 +1,5 @@
-jest.mock('../../../api/rotas/fornecedores/tabelaFornecedor')
-const Fornecedor = require('../../../api/rotas/fornecedores/fornecedor')
+jest.mock('../../../api/rotas/fornecedores/TabelaFornecedor')
+const Fornecedor = require('../../../api/rotas/fornecedores/Fornecedor')
 
 describe('classe Fornecedor', () => {
   test('O método validar() retorna true!', () =>{
